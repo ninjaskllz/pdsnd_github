@@ -241,7 +241,7 @@ def main():
         # give option to print raw data
         see_raw_data = input('\nWould you like to see the raw data?\n')
         index = 0
-        if see_raw_data in ['yes', 'y']:
+        if see_raw_data.lower() in ['yes', 'y']:
             while True:
                 print(df_raw[index:index+5])
                 more = input('\nWould you like to see more?\n')
