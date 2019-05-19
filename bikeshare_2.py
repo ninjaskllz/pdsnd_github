@@ -72,6 +72,7 @@ def get_filters():
         elif day in ['sun', 'su']:
             day = 'sunday'
 
+        # output the user selected information and prompt user to verify everything is correct
         print('\n\nYour Selected City: {}\nYour Selected Month: {}\nYour Selected Day: {}'.format(city.title(), month.title(), day.title()))
         correct = str()
         valid_answer = ['yes', 'y', 'no', 'n']
@@ -250,7 +251,7 @@ def main():
                 else:
                     index += 5
 
-
+        # give user option to restart and look at more data
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() not in ['yes', 'y']:
             print('\n\nTHANK YOU FOR EXPLORING US BIKESHARE DATA!\n\n')
