@@ -2,10 +2,10 @@
 Git project and Readme date: 2019-05-19
 
 ### Project Title
-Replace the Project Title
+Git Commands Documentation
 
 ### Description
-Describe what your project is about and what it does
+This is my submittal for the Git portion of Udacity's Programming for Data Science course.
 
 ### Files used
 Include the files used
